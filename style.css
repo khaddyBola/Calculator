@@ -1,0 +1,73 @@
+*,
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #000;
+    max-width: 350px;
+    padding: 20px;
+    margin: 2vh auto 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.display {
+    color: #fff;
+    text-align: left;
+    line-height: 50px;
+    padding: 20px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.buttons {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+button {
+    margin: 5px;
+    background-color: rgba(0, 0, 128, 0.454);
+    color: #fff;
+    border: 0.5px solid #999;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+button:hover {
+    float: left;
+    font-size: 20px;
+    box-shadow: 0 4px #b0d2cf;
+}
+
+button:active {
+    top: 4px;
+    float: left;
+    margin: 5px;
+    box-shadow: none;
+}
+
+#equal {
+    background-color: blue;
+    color: white;
+}
